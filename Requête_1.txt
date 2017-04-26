@@ -1,0 +1,1 @@
+SELECT count(distinct customer_id) AS Client, store_id FROM mage_sd.sales_flat_order GROUP BY store_id;
